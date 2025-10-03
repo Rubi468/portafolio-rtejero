@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Trocchi&display=swap');
+
+* {
+    margin: auto;
+}
+
+header {
+    background: #6f53d475;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: solid 10px #3a3cbd75;
+    padding: 50px;
+
+}
+
+h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: "IBM Plex Serif", serif;
+}
+p {
+    color: #000000;
+    font-family: "IBM Plex Serif", serif;
+}
+
+#foto-perfil {
+    width: 300px;
+    border-radius: 20px;
+    float: right;
+}
