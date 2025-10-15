@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+body {
+    font-family: "IBM Plex Serif", serif;
+}
+
 header {
     background: #5387d475;
     text-align: center;
@@ -28,6 +32,33 @@ p {
     font-family: "IBM Plex Serif", serif;
 }
 
+.bi {
+    color: #050857;
+}
+
+#menu-principal {
+    list-style-type: none;
+    display: flex;
+}
+
+nav {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#menu-principal a {
+    text-decoration: none;
+    color: #064561;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+#menu-principal a:hover {
+    color: #03225175;
+    background-color: #88a5bec4;
+}
+
 #foto-perfil {
     width: 300px;
     border-radius: 20px;
@@ -42,6 +73,7 @@ section {
     overflow: hidden;
 }
 
+
 #proyectos {
     padding: 20px 30px;
     border-top: solid 5px #054770;
@@ -49,8 +81,13 @@ section {
     text-align: center;
 }
 
+#Lista-proyectos {
+    display: flex;
+
+}
+
 .proyecto {
-    float: left;
+
     width: 25%;
     padding: 10px;
     margin-top: 20px;
@@ -70,6 +107,7 @@ section {
 
 .proyecto h3 {
     color: #05233de6;
+    font-weight: li;
 }
 
 #habilidades {
@@ -87,17 +125,48 @@ progress {
     margin: 10px 0;
 }
 
-.lista-tegnologias{
+.lista-tecnologias {
     list-style: none;
-    display: grid;
+    display: flex;
     margin-left: 0;
     gap: 15px;
+    padding: 10px;
 }
 
-.lista-tecnologias li{
-    background-color: #062d90;
-    color:#061e5f;
+.lista-tecnologias li {
+    background-color: #064561;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 25px;
     text-align: center;
+}
+
+#contacto {
+    padding: 40px;
+}
+
+.campos {
+    width: 70%;
+    clear: both;
+    font-size: 18px;
+}
+
+.campos label{
+    padding-right: 20px;
+}
+
+.campos input{
+    padding: 10px;
+    border: solid 2px #064561;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #407a9d;
+    text-align: center;
+    border-top: solid 5px #13395ac4;
 }
