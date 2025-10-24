@@ -17,6 +17,7 @@ header {
 
 }
 
+
 h1 {
     font-family: "IBM Plex Serif", serif;
     font-size: 30px;
@@ -41,6 +42,7 @@ p {
     display: flex;
 }
 
+
 nav {
     overflow: hidden;
     padding: 20px 0;
@@ -56,13 +58,15 @@ nav {
 
 #menu-principal a:hover {
     color: #03225175;
-    background-color: #88a5bec4;
+    background-color: #8e99ba25;
 }
 
 #foto-perfil {
     width: 300px;
     border-radius: 20px;
-    float: right;
+    display: block;
+    margin: 0 auto;
+    float: none;
 }
 
 main {
@@ -71,7 +75,9 @@ main {
 
 section {
     overflow: hidden;
+    width: 93%;
 }
+
 
 
 #proyectos {
@@ -79,6 +85,14 @@ section {
     border-top: solid 5px #054770;
     margin-top: 30px;
     text-align: center;
+}
+
+#HackyFox-Mobile{
+    width: 50%;
+}
+
+#Nexura{
+    width: 50%;
 }
 
 #Lista-proyectos {
@@ -95,7 +109,7 @@ section {
 
 .proyecto img {
     width: 90%;
-    border-radius: 15px;
+    border-radius: px;
     margin-top: 10px;
 }
 
@@ -161,6 +175,10 @@ progress {
     width: 50%;
     font-size: 20px;
     border-radius: 5px;
+}
+.campos{
+    padding: 10px;
+    text-align: left;
 }
 
 .campos button{
